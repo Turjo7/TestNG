@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="ToolsQA" >
+   		<groups>
+   			<run>
+   				<exclude name = "demo"></exclude>
+   		</run>
+   		</groups>
+       <classes> 
+          <class name="com.practice.NewTest2" />
+       </classes>
+   </test>
+
+
+
+ </suite>
